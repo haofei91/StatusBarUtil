@@ -39,7 +39,7 @@ public class SwitchModeActivity extends BaseActivity {
             public void onClick(View view) {
                 int color = getResources().getColor(R.color.light_gray);
                 StatusBarUtil.setColor(SwitchModeActivity.this, color, 30);
-                mToolbar.setBackgroundColor(color);
+                //mToolbar.setBackgroundColor(color);
                 StatusBarUtil.setLightMode(SwitchModeActivity.this);
             }
         });
@@ -49,7 +49,7 @@ public class SwitchModeActivity extends BaseActivity {
             public void onClick(View view) {
                 int color = getResources().getColor(R.color.colorPrimary);
                 StatusBarUtil.setColor(SwitchModeActivity.this, color);
-                mToolbar.setBackgroundColor(color);
+               // mToolbar.setBackgroundColor(color);
                 StatusBarUtil.setDarkMode(SwitchModeActivity.this);
             }
         });
